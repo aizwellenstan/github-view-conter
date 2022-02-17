@@ -84,3 +84,4 @@ $url = "https://img.shields.io/static/v1?" . http_build_query($params);
 
 // output the response (svg image)
 echo curl_get_contents($url);
+?>
